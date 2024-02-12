@@ -1,0 +1,70 @@
+.center-box{
+    border: 1px solid blue;
+    height: 600px;
+    width: 700px;
+    margin: auto;
+    position: relative;
+
+}
+.sq{
+    border: 2px solid red;
+    position: absolute;
+    width: 100px;
+    height: 80px;
+}
+.squrel1{
+    top: 0;
+    left: 0;
+}
+.squrel2{
+    top: 0;
+    right: 0;
+}
+.squrel3{
+    bottom: 0;
+    left: 0;
+}
+.squrel4{
+    bottom: 0;
+    right: 0;
+}
+.ci{
+    border: 2px solid green;
+    position: absolute;
+    height: 50px;
+    width: 50PX;
+    border-radius: 50%;
+}
+.circle1{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+.circle2{
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+.circle3{
+    left: 0;
+    right: 0;
+    top: 0;
+    
+    margin: auto;
+
+}
+.circle4{
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+
+
+
+

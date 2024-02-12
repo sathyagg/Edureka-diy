@@ -1,0 +1,47 @@
+.image{
+    height: 450px;
+    background-image: url('images/fruit.jpg');
+    background-size: 100%;
+}
+.navbar{
+    background-color: red;
+    height: 50px;
+
+}
+.nbclass{
+    width: 80%;
+  margin: auto;
+  border: 2px solid blue;
+  height: 46px;
+}
+.nbbox{
+    border: 20px solid black;
+    height: 76px;
+    width: 80%;
+    text-align: right;
+    line-height: 80px;
+
+}
+.loginbutton{
+    color: white;
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    float: right;
+    
+
+}
+.createbutton{
+    color: white;
+    
+    padding: 5px;
+    margin-top: 10px;
+    float: right;
+    background-color: transparent;
+}
+    
+    
+
+
