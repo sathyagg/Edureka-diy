@@ -1,6 +1,10 @@
-var slice = "slice";
-console.log(slice);
-var dummy = "Today is a dummy day";
-console.log(dummy.replace("dummy","great day"));
-var upper = "TOday is great day";
-console.log(upper.toLocaleUpperCase());
+var slice = "Let's slice this string.";
+console.log(slice.slice(6,11));
+var text= "Today is a dummy day";
+console.log(text.replace("dummy","great day"));
+var capitalText = "TOday is great day.";
+console.log(capitalText.toLocaleUpperCase());
+var str1 = "Welcome to varanda";
+console.log(capitalText.concat(str1));
+var concatText = "     Lorem ipsum dolor, sit amet consectetur Repudiandae, et nesciunt!”     ";
+console.log(concatText.trim());
