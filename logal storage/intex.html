@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section storage</title>
+</head>
+<body>
+    <h1>Welcome to sathya</h1>
+    <button id="add">Alter users</button>
+    <button id="cls">clear users</button>
+    <script>
+        var btn = document.querySelector("#add");
+        var btn = document.querySelector("#cls");
+        var title =document.querySelector("h1");
+        btn .onclick= function(){
+            userDetails();
+
+            }
+            del .onclick=function(){
+                localStorage.clear();
+            }
+            function userDetails() {
+                var name = prompt("please enter your name");
+                localStorage.setItem("username",name);
+                title.textContent="welcome"+name;
+            }
+       if (!localStorage.getItem("username")) {
+            userDetails();
+       }
+       else{
+        var name = localStorage.getItem("username");
+        title.textContent="welcome"+name
+       }
+        
+
+    </script>
+    
+</body>
+</html>
